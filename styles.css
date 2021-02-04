@@ -1,0 +1,106 @@
+
+a 
+{
+    color: grey;
+   text-decoration: none;
+}
+a:visited
+{ color: grey;
+   text-decoration: none;
+}
+a:hover
+{ color: grey;
+   text-decoration: underline;
+}
+a:active
+{ color: grey;
+   text-decoration: none;
+}
+
+#header {
+    padding: 10px;
+    margin-top: 2em;
+    background: #ffffff;
+    color: rgb(104, 104, 104);
+    font-size: 14px;
+    font-family: arial, sans-serif;
+  
+  }
+#headleft{
+    
+    padding: 8px;
+    float:left;
+}
+#about{
+    display: inline-block;
+    text-align: first;
+    padding: 4px;
+}
+#store{
+    display: inline-block;
+    text-align: first;
+    padding: 4px;
+}
+
+#headright{
+  padding: 8px;
+  float:right;
+}
+#gmail{
+    display: inline-block;
+    text-align: right;
+    direction:rtl;
+    padding: 4px;
+
+}
+#images{
+    padding: 4px;
+    display: inline-block;
+}
+
+#googleaccount{
+    padding: 4px;
+    text-align: end;
+    display: inline-block;
+}
+#icon{
+    vertical-align: top;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.round {
+    width: 100%;
+    border-radius: 15px;
+    border: 1px #000 solid;
+    padding: 5px 5px 5px 25px;
+
+    top: 0;
+    left: 0;
+    z-index: 5;
+}
+.search {
+    border-radius: 10px;
+    width: 400px;
+    height: 30px;
+    position: relative;
+    box-shadow: 3px 4px 4px lightgrey;
+}
+#himg {
+
+  display: block;
+  width: 18%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 1em;
+  padding-top: 7em;
+  
+}
+#searchsec
+{   text-align: center;
+    display: block;
+    width: 20%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
